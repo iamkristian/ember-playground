@@ -1,0 +1,17 @@
+<script type="text/x-handlebars">
+  <h2>Welcome to Ember.js</h2>
+
+  {{outlet}}
+</script>
+
+<script type="text/x-handlebars" id="index">
+  <ul>
+  {{#each item in model}}
+    <li>{{item.name}} {{item.email}}</li>
+  {{/each}}
+  </ul>
+
+  Name: {{ input type="text" value=name}}<br/>
+  Email: {{ input type="text" value=email}}
+  <button {{action save}}>Save</button>
+</script>
