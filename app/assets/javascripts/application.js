@@ -13,6 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require lib/handlebars/handlebars.min.js
-//= require lib/ember/ember.min.js
-//= require lib/ember-model/ember-model.js
+//= require lib/ember/ember.js
+//= require lib/ember-data/ember-data.js
 //= require apps/app
